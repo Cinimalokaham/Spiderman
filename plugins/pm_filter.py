@@ -571,7 +571,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                 InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="rmbgsticker"),
                 ],[
-                InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='photo')
+                InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
              ]]
         ),)
     elif query.data == "stick":
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         )
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='photo')
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                     ],
                 ]
             ),
@@ -608,7 +608,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton(text="270", callback_data="270")],
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='photo')
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                 ]
             ),
         )
@@ -626,7 +626,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         ),
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='photo')
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                     ]
                 ]
             ),
@@ -646,7 +646,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton(text="5", callback_data="normalglitch5"),
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='glitch')
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='glitch')
                     ],
                 ]
             ),
@@ -666,7 +666,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton(text="5", callback_data="scanlineglitch5"),
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='glitch')
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='glitch')
                     ],
                 ]
             ),
@@ -683,7 +683,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     [InlineKeyboardButton(text="𝖦𝖺𝗎𝗌𝗌𝗂𝖺𝗇", callback_data="gas")],
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='photo')
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                 ]
             ),
         )
@@ -697,7 +697,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton(text="𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖡𝖦", callback_data="circlewithoutbg"),
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='photo')
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')
                     ]
                 ]
             ),
@@ -716,7 +716,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton(text="𝖡𝗅𝗎𝖾", callback_data="blue"),
                     ],
                     [
-                        InlineKeyboardButton('⪻ ʙᴀᴄᴋ', callback_data='photo')   
+                        InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='photo')   
                     ],
                 ]
             ),
@@ -797,7 +797,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "nihu":
         buttons = [[
-        InlineKeyboardButton('🦋 ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs 🦋', callback_data='start')
+        InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡', callback_data='start')
     ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -808,15 +808,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/GTSpidermanrobot?startgroup=true')
    ],[
-        InlineKeyboardButton('🍁 ᴏᴡɴᴇʀ', callback_data='me'),
-        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url='https://t.me/movie_lookam')
+        InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ᴛᴏ ᴄʟᴏsᴇ ᴛʜɪs ʙᴜᴛᴛᴏɴs ⚡️', callback_data='nihu')
+   ],[
+        InlineKeyboardButton('👑 ᴏᴡɴᴇʀ', callback_data='me'),
+        InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham')
    ],[      
         InlineKeyboardButton('⚙️ ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about_menu')
-   ],[
-        InlineKeyboardButton('🔰 ɢᴏ ʙᴀᴄᴋ ᴛᴏ ᴍᴀɪɴ ᴍᴇɴᴜ 🔰', callback_data='nihu')   
+u')   
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
