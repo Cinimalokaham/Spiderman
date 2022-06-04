@@ -3,14 +3,23 @@ class script(object):
     
 ☆ ᴍʏ ɴᴀᴍᴇ ɪꜱ  <a href=https://t.me/Srinidhi_shetty_bot><b>『 sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ 』</b></a>  ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴍᴏᴠɪᴇꜱ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ 😈</b>"""
     HELP_TXT = """💖 𝙷𝙴𝚈 {} 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 💖"""
-    ABOUT_TXT = """<b>○ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Srinidhi_shetty_bot><b>sʀɪɴɪᴅʜɪ sʜᴇᴛᴛʏ</b></a>
-○ ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/NL_MP4><b>ɴɪʜᴀᴀʟ</b></a>
-○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
-○ ʟɪʙʀᴀʀʏ : ᴘʏᴛʜᴏɴ 3
-○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
-○ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴀɴɢᴏ ᴅʙ
-○ ᴠᴇʀsɪᴏɴ : ᴠ 4.0 [ ʙᴇᴛᴀ ]</b>"""
-    
+    ABOUT_TXT = """
+<b>🤖 ʙᴏᴛ ɴᴀᴍᴇ: <a href='https://t.me/GTSpidermanrobot'>Sᴘɪᴅᴇʀᴍᴀɴ.</a>
+
+📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ</a>
+
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://github.com/pyrogram/pyrogram'>ᴘʏʀᴏɢʀᴀᴍ</a>
+
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href='https://www.okteto.com/'>ᴏᴋᴛᴇᴛᴏ</a>
+
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GTHero'>ɢᴛ ᠰ ʜᴇʀᴏ</a>
+
+💡 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/GTSpidermanrobot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+
+👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/Cinimalokham'>ꜱᴘɪᴅᴇʀᴍᴀɴ sᴜᴘᴘᴏʀᴛ</a>
+
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/CLMlinkz'>ᴄʟᴍ ᴜᴘᴅᴀᴛᴇs</a>
+\n\n📖 Nᴏᴛᴇ : <code>ആരും പേടിക്കേണ്ട എല്ലാവർക്കും കിട്ടും</code></b>"""
     OWNER_TXT2 = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
 <b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ɢᴛ ᠰ ʜᴇʀᴏ</b>
@@ -19,7 +28,7 @@ class script(object):
 
 <b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
  """
-    OWNER_TXT = """🦋 ʜᴇʀᴇ ᴛᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ 🦋"""
+    OWNER_TXT = """⚡ ʜᴇʀᴇ ᴛᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ ⚡"""
     ENGLISHSPELL_TXT = """<i>Click on the button labeled Google, find the correct movie name and enter it here. But the movie / Tv. Web Series will get ..
     
 If you still do not get it. Movie Name & year after @admin. Example: Add <b>@admin kala 2020</b> to the group in this way. The admin will upload within 24 hours 
