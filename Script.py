@@ -11,15 +11,14 @@ class script(object):
 ○ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴀɴɢᴏ ᴅʙ
 ○ ᴠᴇʀsɪᴏɴ : ᴠ 4.0 [ ʙᴇᴛᴀ ]</b>"""
     
-    OWNER_TXT2 = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    OWNER_TXT2 = """<b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
-  
-    
-    
+<b>• ꜰᴜʟʟ ɴᴀᴍᴇ : ɢᴛ ᠰ ʜᴇʀᴏ</b>
+<b>• Uꜱᴇʀ ɴᴀᴍᴇ : @GTHero
+• Usᴇʀ ɪᴅ :</b> <code>5283019077</code>
 
-    
-    
-
+<b>∂σи'т вє αfяαι∂ σf вєιиg ∂ιffєяєит, вє αfяαι∂ σf вєιиg тнє ѕαмє αѕ єνєяуσиє єℓѕє</b>
+ """
     OWNER_TXT = """🦋 ʜᴇʀᴇ ᴛᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀ 🦋"""
     ENGLISHSPELL_TXT = """<i>Click on the button labeled Google, find the correct movie name and enter it here. But the movie / Tv. Web Series will get ..
     
