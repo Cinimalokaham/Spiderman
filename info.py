@@ -82,10 +82,10 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
-SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
+SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<code>{query}</code>\n\n<b>〓〓〓 <a href={url}>{title}</a> 〓〓〓\n\n⭐️ ɪᴍᴅʙ  {rating} | ⏰ ʀᴜɴ {runtime} ᴍɪɴ |\n📆 ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : {release_date}</b>\n\n● <code>{genres}</code>\n● <code>languages</code>\n\n📖 <b>ꜱᴛᴏʀʏ</b> : {plot}\n\n<b><i>🗣 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ {message.from_user.mention}</i></b>")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>〓〓〓 <a href={url}>{title}</a> 〓〓〓\n\n⭐️ ɪᴍᴅʙ  {rating} | ⏰ ʀᴜɴ {runtime} ᴍɪɴ |\n📆 ʀᴇʟᴇᴀsᴇ ᴅᴀᴛᴇ : {release_date}</b>\n\n● <code>{genres}</code>\n● <code>languages</code>\n\n📖 <b>ꜱᴛᴏʀʏ</b> : {plot}\n\n<b><i>🗣 Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ {message.from_user.mention}</i></b>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -93,11 +93,8 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-
-
 CH_LINK = environ.get('CH_LINK', "")
 CH_FILTER = int(environ.get('CH_FILTER', 0))
-START_IMAGE_URL = environ.get('START_IMAGE_URL', "")
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
