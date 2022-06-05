@@ -1426,7 +1426,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if settings is not None:
             buttons = [
                 [
-                    InlineKeyboardButton('𝐅𝐈𝐋𝐓𝐄𝐑 𝐁𝐔𝐓𝐓𝐎𝐍', 'button2')
+                    InlineKeyboardButton('𝐅𝐈𝐋𝐓𝐄𝐑 𝐁𝐔𝐓𝐓𝐎𝐍', 'button2'),
                     InlineKeyboardButton('𝐒𝐈𝐍𝐆𝐋𝐄', 'button2')
                 ],
                 [
