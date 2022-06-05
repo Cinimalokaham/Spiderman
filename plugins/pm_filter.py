@@ -1025,7 +1025,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == 'reqst1':
         await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want  ⬇️", show_alert=True)
         
-    elif query.data == "button":
+    elif query.data == "button2":
         await query.answer("⚠️ sᴏʀʀʏ ʙʀᴏ ᴏɴʟʏ sɪɴɢʟᴇ ʙᴜᴛᴛᴏɴ ɪs ᴀᴠᴀɪʟᴀʙʟᴇ ⚠️", show_alert=True)
         
     elif query.data == "about_menu":
@@ -1426,8 +1426,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if settings is not None:
             buttons = [
                 [
-                    InlineKeyboardButton('𝐅𝐈𝐋𝐓𝐄𝐑 𝐁𝐔𝐓𝐓𝐎𝐍', 'button')
-                    InlineKeyboardButton('𝐒𝐈𝐍𝐆𝐋𝐄', 'button')
+                    InlineKeyboardButton('𝐅𝐈𝐋𝐓𝐄𝐑 𝐁𝐔𝐓𝐓𝐎𝐍', 'button2')
+                    InlineKeyboardButton('𝐒𝐈𝐍𝐆𝐋𝐄', 'button2')
                 ],
                 [
                     InlineKeyboardButton('𝐁𝐎𝐓 𝐏𝐌', callback_data=f'setgs#botpm#{settings["botpm"]}#{str(grp_id)}'),
