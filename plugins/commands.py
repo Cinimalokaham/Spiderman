@@ -44,7 +44,7 @@ async def start(client, message):
         buttons = [[
         InlineKeyboardButton('🦋 ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs 🦋', callback_data='start')
     ]]
-        await message.reply_chat_action("ᴛʏᴘɪɴɢ")
+        await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgUAAxkBAAEBB2liJjsNVSkfAy_OtYR0Q48dN_9DsAACGgIAAv68YVTI6jnmvnlZlh4E") 
         await asyncio.sleep(2)
         await m.delete()
@@ -84,7 +84,7 @@ async def start(client, message):
         buttons = [[
         InlineKeyboardButton('🦋 ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs 🦋', callback_data='start')
     ]]
-        await message.reply_chat_action("ᴛʏᴘɪɴɢ")
+        await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgUAAxkBAAEBB2liJjsNVSkfAy_OtYR0Q48dN_9DsAACGgIAAv68YVTI6jnmvnlZlh4E") 
         await asyncio.sleep(2)
         await m.delete()
