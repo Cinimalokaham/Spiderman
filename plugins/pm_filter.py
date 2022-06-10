@@ -180,14 +180,14 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'📁 {search} 📁', 'reqst1')
+            InlineKeyboardButton(f'📁 Fɪʟᴇ ɴᴀᴍᴇ {search} ', 'reqst1')
         ]
     )
     btn.insert(1, 
         [
-            InlineKeyboardButton(f'ғɪʟᴇs: {len(files)}', 'reqst1'),
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movss'),
-            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'moviis')
+            InlineKeyboardButton(f'ɪɴꜰᴏ', 'info'),
+            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movie'),
+            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'series')
         ]
     )
     if 0 < offset <= 10:
@@ -911,7 +911,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='eth'),
             InlineKeyboardButton('3 - 3', callback_data='pages'),
-            InlineKeyboardButton(text="ᴄʟᴏsᴇ ✘", callback_data="close_data")
+            InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")
+            ],[
+            InlineKeyboardButton('🔰sᴛᴀᴛᴜs', callback_data='stats'),
+            InlineKeyboardButton('🏡ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('📚 ʜᴇʟᴘ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)       
         await query.message.edit_text(                     
@@ -1024,13 +1028,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "gtheropm":
         await query.answer("📵 ᴄᴏɴᴛᴀᴄᴛ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ\n\n- ꜱᴇᴄᴛɪᴏɴ B206 - ꜱᴘᴀᴍ + ʙᴀɴ ⚠️\n\n- ꜱᴇᴄᴛɪᴏɴ Y8R6 - ꜱᴘᴀᴍ + ʀᴇᴘᴏʀᴛ 🉐\n\n🗽 ʙʏ ◉‿◉ ɢᴛ ᠰ ʜᴇʀᴏ", show_alert=True)
         
-    elif query.data == "movss":
+    elif query.data == "movie":
         await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ⪼ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ⪼ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ⪼ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ᴋɢꜰ ᴄʜᴀᴘᴛᴇʀ 2  2022\n\n✘ ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n© Tʜᴏᴍᴀs Sʜᴇʟʙʏ", show_alert=True)
 
-    elif query.data == "moviis":  
+    elif query.data == "series":  
         await query.answer("⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\nꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ\n⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯\n\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ⪼ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ⪼ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ⪼ ᴘᴀꜱᴛᴇ ᴛʜɪꜱ ɢʀᴏᴜᴘ\n\nᴇxᴀᴍᴘʟᴇ : ʟᴏᴋɪ S01 E01\n\n✘ ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)\n\n© Tʜᴏᴍᴀs Sʜᴇʟʙʏ", show_alert=True)   
         
-    elif query.data == 'reqst1':
+    elif query.data == 'info':
         await query.answer("Hey Bro 😍\n\n🎯 Click On The Button below The Files You Want  ⬇️", show_alert=True)
         
     elif query.data == "button2":
@@ -1503,14 +1507,14 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'📁 {search} 📁', 'reqst1')
+            InlineKeyboardButton(f'📁 Fɪʟᴇ ɴᴀᴍᴇ {search} ', 'reqst1')
         ]
     )
     btn.insert(1, 
         [
-            InlineKeyboardButton(f'ғɪʟᴇs: {total_results}', 'reqst1'),
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movss'),
-            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'moviis')
+            InlineKeyboardButton(f'ɪɴꜰᴏ', 'info'),
+            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'movie'),
+            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'series')
         ]
     )
 
