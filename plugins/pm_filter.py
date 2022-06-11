@@ -190,12 +190,12 @@ async def next_page(bot, query):
             InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'series')
         ]
     )
-    if 0 < offset <= 10:
+    if 0 < offset <= 7:
         off_set = 0
     elif offset == 0:
         off_set = None
     else:
-        off_set = offset - 10
+        off_set = offset - 7
     if n_offset == 0:
         btn.append(
             [InlineKeyboardButton("ᴘᴀɢᴇs", callback_data="pages"),
@@ -467,8 +467,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             mention = f"{query.from_user.mention}"
         buttons = [
             [
-                InlineKeyboardButton('『🎪 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ 🎪』', url='https://t.me/Cinimalokham')
-            ]
+                InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham')
+                InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ'), url='https://t.me/CLMlinkz')
+            ],  
+            [   
+                InlineKeyboardButton('💞 sʜᴀʀᴇ', url="https://t.me/share/url?url=**😱%20സിനിമ%20ലോകം.²·⁰%20😱%0A%0Aഏത്%20അർധരാത്രി%20ചോദിച്ചാലും%20പടം%20കിട്ടും,%20ലോകത്തിലെ%20ഒട്ടുമിക്ക%20ഭാഷകളിലുമുള്ള%20സിനിമകളുടെ%20കളക്ഷൻ..%20❤️%0A%0A👇%20GROUP%20LINK%20👇%0A@Cinimalokham%0A@Cinimalokham%0A@Cinimalokham**")
             ]
 
         try:
