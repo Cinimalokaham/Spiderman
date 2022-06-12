@@ -67,7 +67,7 @@ async def start(client, message):
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("ᴍᴇ ᴊᴏɪɴᴇᴅ", callback_data=f"checksub#{message.command[1]}")
+            btn.append([InlineKeyboardButton("ᴍᴇ ᴊᴏɪɴᴇᴅ", callback_data=f"checksub#{message.command[1]}")])
         await client.send_photo(
             photo="https://telegra.ph/file/f5d411fba25ecfa5197fe.jpg",
             chat_id=message.from_user.id,
