@@ -467,7 +467,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             mention = f"{query.from_user.mention}"
         buttons = [
             [
-                InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham')
+                InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham'),
                 InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ'), url='https://t.me/CLMlinkz')
             ],  
             [   
@@ -539,7 +539,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham')
+                InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham'),
                 InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ'), url='https://t.me/CLMlinkz')
             ],  
             [   
