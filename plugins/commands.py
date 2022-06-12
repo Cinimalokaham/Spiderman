@@ -42,7 +42,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-        InlineKeyboardButton('🦋 ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs 🦋', callback_data='start')
+        InlineKeyboardButton('⚡ ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ᴍᴏʀᴇ ʙᴜᴛᴛᴏɴs ⚡', callback_data='start')
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -62,13 +62,12 @@ async def start(client, message):
             [
                 InlineKeyboardButton(
                     "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link
-                InlineKeyboardButton(
-                    "ᴍᴇ ᴊᴏɪɴᴇᴅ", callback_data=f"checksub#{message.command[1]}")
+                )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("Hᴇʏ Bᴏᴛ....! Wʜʏ I'ᴍ ᴊᴏɪɴɪɴɢ", callback_data="forsub")])
+            btn.append([InlineKeyboardButton("ᴍᴇ ᴊᴏɪɴᴇᴅ", callback_data=f"checksub#{message.command[1]}")
         await client.send_photo(
             photo="https://telegra.ph/file/f5d411fba25ecfa5197fe.jpg",
             chat_id=message.from_user.id,
