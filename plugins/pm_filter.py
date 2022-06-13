@@ -468,9 +468,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham')
-            ],
-            [
-                InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ'), url='https://t.me/CLMlinkz')
             ]
             ]
         
@@ -540,9 +537,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton('👥 ɢʀᴏᴜᴘ', url='https://t.me/Cinimalokham')
-            ],
-            [
-                InlineKeyboardButton('🎬 ᴄʜᴀɴɴᴇʟ'), url='https://t.me/CLMlinkz')
             ]
             ]
       
