@@ -504,7 +504,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     ]
                 )
             )
-            await asyncio.sleep(600)
+            await asyncio.sleep(300)
             await msg1.delete()            
             await ms.delete()
             del msg1, ms
