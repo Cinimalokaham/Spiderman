@@ -280,6 +280,11 @@ This module only works for my admins
 • /unban_user  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
+    
+    CARBON_TXT = """Help for Carbon
+    
+Reply To a Message To Make CarBon use /carbon for using this Module"""
+
     STATUS_TXT = """🗂️ ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
 👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
 👥 ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
