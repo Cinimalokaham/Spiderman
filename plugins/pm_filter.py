@@ -897,7 +897,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[ 
             InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='son'),
             InlineKeyboardButton('ᴘᴀsᴛᴇ', callback_data='pastes'),
-            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona')
+            InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carbon')
             ],[
             InlineKeyboardButton('ᴋɪᴄᴋ', callback_data='zombies'),
             InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings'),
@@ -1098,13 +1098,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "corona":
+    elif query.data == "carbon":
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.CORONA_TXT,
+            text=script.CARBON_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
