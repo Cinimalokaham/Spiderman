@@ -1,3 +1,5 @@
+##__Made_by_NL_BOTxCHAT__##
+
 from asyncio import gather
 from datetime import datetime, timedelta
 from io import BytesIO
